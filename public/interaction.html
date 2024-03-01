@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="alert alert-warning alert-dismissible">
+        <h2 class="alert-title">Delete Record</h2>
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+        <p class="alert-subtitle">Record will be deleted</p>
+        <a href="#" class="alert-link">Help</a>
+    </div>
+    <div class="alert alert-warning alert-dismissible">
+        <h2 class="alert-title">Insert Record</h2>
+        <p class="alert-subtitle">Record will be inserted</p>
+        <a href="#" class="alert-link">Help</a>
+        <br><br>
+        <button class="btn btn-success" data-bs-dismiss="alert">Ok</button>
+    </div>
+    <form class="alert alert-danger alert-dismissible">
+        <h3 class="bi bi-person-fill">User Login</h3>
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    <dl>
+        <dt>User name</dt>
+            <dd><input type="text" class="form-control"></dd>
+        <dt>Password</dt>
+        <dd><input type="password" class="form-control"></dd>
+    </dl>
+    <button class="btn btn-warning w-100">Login</button>
+</form>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

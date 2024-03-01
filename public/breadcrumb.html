@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadcrumb example</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        li::after{
+            content: "->";
+            margin-left: 10px;
+        }
+        li:last-child::after{
+            content: '';
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <!--Breadcrumb of bootstrap-->
+    <!--<h2>Shopper.</h2>
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item">Home</li>
+        <li class="breadcrumb-item">Electronics</li>
+        <li class="breadcrumb-item text-primary active">Mobiles</li>
+        <li class="breadcrumb-item">Apple</li>
+        <li class="breadcrumb-item">iPhone 14</li>
+    </ul>-->
+    <!--Breadcrumb using css-->
+    <h2>Shopper.</h2>
+    <ul>
+        <li>Home</li>
+        <li>Electronics</li>
+        <li>Mobiles</li>
+        <li>Apple</li>
+        <li>iPhone 14</li>
+    </ul>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

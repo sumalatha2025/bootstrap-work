@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav and tabs</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <h1>Shopper.</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a href="#login" data-bs-toggle="tab" class="nav-link">login</a></li>
+        <li class="nav-item"><a href="#Register" data-bs-toggle="tab" class="nav-link">Register</a></li>
+        <li class="nav-item"><a href="#Recover" data-bs-toggle="tab" class="nav-link">Recover Account</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active mt-4" id="login">
+            <dl>
+                <dt>User name</dt>
+                <dd><input type="text"></dd>
+                <dt>Password</dt>
+                <dd><input type="password"></dd>
+            </dl>
+            <button class="btn btn-primary">Login</button>
+        </div>
+        <div class="tab-pane" id="Register">
+            <dl>
+                <dt>User name</dt>
+                <dd><input type="text"></dd>
+                <dt>Password</dt>
+                <dd><input type="password"></dd>
+                <dt>Mobile</dt>
+                <dd><input type="number"></dd>
+                <dt>Age</dt>
+                <dd><input type="number"></dd>
+            </dl>
+            <button class="btn btn-primary">Register</button>
+        </div>
+        <div class="tab-pane" id="Recover">
+            <input type="email" placeholder="your email">
+            <button class="btn btn-warning">Recover</button>
+        </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

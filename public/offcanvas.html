@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcanvas component</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body container-fluid>
+    <button data-bs-toggle="offcanvas" data-bs-target="#navbar" class="btn btn-primary bi bi-justify mt-4"></button>
+    <nav class="offcanvas offcanvas-start" id="navbar" tabindex="-1"><!--tabindex is used to make offcanvas model to be intactive-->
+        <div class="offcanvas-header bg-success text-white">
+            <h1>Amazon</h1>
+            <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ol>
+                <li>Electronics</li>
+                <li>Foot wear</li>
+                <li>Fashion</li>
+            </ol>
+        </div>
+    </nav>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Example</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid">
+    <main class="mt-4 d-flex">
+        <div class="card p-1 m-2" style="width: 300px;">
+            <div class="card-header">
+                <h4 class="card-title">Casuals for smart</h4>
+            </div>
+            <div class="card-body">
+                <img src="images/watch.jpg" alt="watch models" class="card-img-top">
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary w-100 bi bi-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="card p-1 m-2" style="width: 300px;">
+            <div class="card-header">
+                <h4 class="card-title">Casuals for smart</h4>
+            </div>
+            <div class="card-body">
+                <img src="images/watch.jpg" alt="watch models" class="card-img-top">
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary w-100 bi bi-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="card p-1 m-2 bg-success text-white" style="width: 300px;">
+            <div class="card-header">
+                <h4 class="card-title">Casuals for smart</h4>
+            </div>
+            <div class="card-body">
+                <img src="images/watch.jpg" alt="watch models" class="card-img-top">
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary w-100 bi bi-cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="card p-1 m-2" style="width: 300px;">
+            <img src="images/watch.jpg" alt="watch models" class="card-img-top">
+            <div class="card-header">
+                <h4 class="card-title">Casuals for smart</h4>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Fassil</li>
+                    <li>Fasttrack</li>
+                    <li>Apple</li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary w-100 bi bi-cart">Add to cart</button>
+            </div>
+        </div>
+    </main>
+    <!--badge example-->
+    <button class="btn btn-dark mt-3 position-relative">
+        <span class="bi bi-bell-fill"></span> Subscribed <span class="badge bg-danger rounded rounded-circle position-absolute `">3</span>
+    </button>
+    <!--paginaton-->
+    <h2>Pagination</h2>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link">&laquo;</a></li>
+        <li class="page-item"><a class="page-link">1</a></li>
+        <li class="page-item"><a class="page-link">2</a></li>
+        <li class="page-item active"><a class="page-link">3</a></li>
+        <li class="page-item disabled"><a class="page-link">4</a></li>
+        <li class="page-item"><a class="page-link">&raquo;</a></li>
+    </ul>
+    <!--Progress bar-->
+    <h2>HTML Progress Bar</h2>
+    <progress min="1" max="100" value="20"></progress>20% completed
+    <h2>Bootstrap Progress Bar</h2>
+    <div class="progress">
+        <div class="progress-bar me-1 progress-bar-striped progress-bar-animated bg-success" style="width: 25%;"> 25% completed</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 20%;"> 20% pending</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 55%">unknown</div>
+    </div>
+    <!--Spinners-->
+    <h2>Spinners</h2>
+    <div class="spinner-border text-bg-info text-success"></div>
+    <div class="spinner-grow text-bg-danger"></div>
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span> Loading..
+    </button>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
